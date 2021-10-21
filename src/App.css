@@ -1,0 +1,371 @@
+.feedBack {
+  background-image: url('gameover.png');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 1px;
+  text-align: center;
+}
+
+.feedText {
+  color: white;
+}
+
+.ranking {
+  background-color: #e70c0c;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  margin-left: 200px;
+  opacity: 0.9;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.ranking:hover {
+  background-color: #19b319;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24) , 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 2;
+}
+
+.playAgain {
+  background-color: #e70c0c;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin: 40px;
+  margin-top: 15%;
+  opacity: 0.9;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 240px;
+}
+
+.playAgain:hover {
+  background-color: #19b319;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24) , 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 2;
+}
+
+.login {
+  align-items: center;
+  background-image: url('background.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.login-son {
+  background: crimson;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  height: 300;
+  margin: 10px;
+  margin-top: 100px;
+  opacity: 70%;
+  padding: 20px;
+  position: absolute;
+  width: 500;
+}
+
+.label-login {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+/* Corrigindo css */
+.label-login input {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.login-son button {
+  background-color: chocolate;
+  width: 300px;
+}
+
+.login-son button:hover {
+  background-color: #19b319;
+}
+
+.config {
+  align-items: center;
+  background-image: url('background.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 30;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .title-config {
+
+} */
+
+.config-son {
+  background: crimson;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  height: 300;
+  margin: 10px;
+  margin-top: 100px;
+  opacity: 70%;
+  padding: 20px;
+  position: absolute;
+  width: 500;
+}
+
+.config-son input {
+  align-items: flex-start;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.config-son label {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.config-button {
+  background-color: chocolate;
+  width: 10px;
+
+}
+
+
+.config-button:hover {
+  background-color: #19b319;
+}
+
+.main-ranking {
+  background
+  : linear-gradient(to bottom right, rgb(1, 69, 255), rgb(253, 232, 232));
+  border-radius: 5pc;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial , sans-serif;
+  justify-content: center;
+  margin: 50px 35%;
+  padding: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.title-ranking {
+  color: beige;
+}
+
+.body-ranking {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial , sans-serif;
+}
+
+.resultado-ranking {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial , sans-serif;
+  justify-content: center;
+}
+
+.name-ranking {
+  align-items: center;
+  background-color: #ffffffa9;
+  border-radius: 1pc;
+  box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.301);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial , sans-serif;
+  justify-content: center;
+  padding: 10px;
+}
+
+.score-ranking {
+  color: white;
+  font-family: Arial , sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+.picture-ranking {
+  align-items: center;
+  border: 3px solid #8db7d2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 50px;
+}
+
+.button-ranking {
+  align-items: center;
+  background-color: red;
+  border: none;
+  border-radius: 4pc;
+  box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.301);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial , sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 10pc;
+}
+
+.button-ranking:hover {
+  background-color: #19b319;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24) , 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 2;
+}
+
+.login {
+  align-items: center;
+  background-image: url('background.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.login-son {
+  background: crimson;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  height: 300;
+  margin: 10px;
+  margin-top: 100px;
+  opacity: 70%;
+  padding: 20px;
+  position: absolute;
+  width: 500;
+}
+
+.label-login {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.label-login input {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.login-son button {
+  background-color: chocolate;
+  width: 300px;
+}
+
+.login-son button:hover {
+  background-color: #19b319;
+}
+
+.config {
+  align-items: center;
+  background-image: url('background.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 30;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .title-config {
+
+} */
+
+.config-son {
+  background: crimson;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  height: 300;
+  margin: 10px;
+  margin-top: 100px;
+  opacity: 70%;
+  padding: 20px;
+  position: absolute;
+  width: 500;
+}
+
+.config-son input {
+  align-items: flex-start;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.config-son label {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  width: 75%;
+}
+
+.config-button {
+  background-color: chocolate;
+  width: 10px;
+
+}
+
+
+.config-button:hover {
+  background-color: #19b319;
+}
