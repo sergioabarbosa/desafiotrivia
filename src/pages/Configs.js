@@ -25,7 +25,7 @@ class Configs extends Component {
     const { categories, difficulties, types, selectedNumberOfQuestions } = this.props;
     return (
       <div className="config">
-        {/* <h1 className="title-config" data-testid="settings-title">Config</h1> */}
+        {/* <h1 className="title-config" data-testid="settings-title">Configurações</h1> */}
         <form className="config-son" onSubmit={ this.handleSubmit }>
           <ConfigSelect
             id="selectedCategory"
