@@ -2,7 +2,7 @@
 
 ### 1 - Utilização do framework React e a biblioteca Redux;
 ### 2 - Estilização com CSS3;
-### 2 - Utilização da API: https://opentdb.com/api.php?amount=QUANTIDADE;
+### 2 - Utilização do endpoint: https://opentdb.com/api.php?amount=QUANTIDADE;
 ### 3 - Utilização do LocalStorage para armazenar o state;
 ### 4 - Utilização do git para versionamento de código e GitHub para armazenar o projeto.
 
