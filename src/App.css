@@ -59,7 +59,7 @@
 
 .login {
   align-items: center;
-  background-image: url('background.png');
+  background-color: aquamarine;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -111,7 +111,7 @@
 
 .config {
   align-items: center;
-  background-image: url('background.png');
+  background-color: aquamarine;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -122,9 +122,12 @@
   text-align: center;
 }
 
-/* .title-config {
-
-} */
+.title-config {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
 
 .config-son {
   background: crimson;
@@ -259,7 +262,7 @@
 
 .login {
   align-items: center;
-  background-image: url('background.png');
+  background-color: #ffffffa9;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -311,7 +314,7 @@
 
 .config {
   align-items: center;
-  background-image: url('background.png');
+  background-color: aquamarine;
   background-position: center;
   background-size: cover;
   display: flex;
